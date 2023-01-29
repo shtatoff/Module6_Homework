@@ -5,4 +5,5 @@ function getSum(x){
 }
 const x = +prompt('Введите число 1');
 const y = +prompt('Введите число 2');
-console.log(getSum(x)(y));
+const result = getSum(x)(y);
+console.log(result);
